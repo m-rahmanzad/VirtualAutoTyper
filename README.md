@@ -50,7 +50,7 @@ To convert the script into a standalone executable:
 ```pip install pyinstaller```
 2.Run PyInstaller:
 ```
-pyinstaller --onefile --windowed autokey.py
+python -m PyInstaller --onefile --windowed autokey.py
 ```
 3.Find the executable file in the dist folder.
 
