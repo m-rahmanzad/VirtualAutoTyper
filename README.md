@@ -45,6 +45,7 @@ Run the application:
 
 Build Executable (.exe) for Windows
 To convert the script into a standalone executable:
+
 1.Install PyInstaller:
 ```pip install pyinstaller```
 2.Run PyInstaller:
@@ -55,10 +56,12 @@ pyinstaller --onefile --windowed autokey.py
 
 Notes
 Make sure the target window (where the text will be typed) is active and ready before the 5-second delay ends.
-
 Typing speed is currently fixed but can be adjusted in the script (pyautogui.typewrite interval parameter).
-
 Running the executable does not require Python to be installed on the target machine.
+
+```diff
+! > ⚠ **warning**: Some antivirus programs may detect PyAutoGUI as a virus.!
+```
 
 License
 This project is licensed under the MIT License.
